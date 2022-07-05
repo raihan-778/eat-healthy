@@ -1,0 +1,55 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+p {
+  font-size: 20px;
+  color: #a6a6a6;
+  font-family: "Roboto", sans-serif;
+}
+.orange-color {
+  color: orangered;
+}
+.flexible-content {
+  display: flex;
+  align-items: center;
+}
+.banner-content,
+.about-me-content {
+  width: 40%;
+  margin: 1%;
+  padding: 3%;
+}
+.banner-img,
+.about-me-img {
+  width: 40%;
+  margin: 1%;
+  padding: 3%;
+}
+.banner-img img {
+  width: 80%;
+}
+.link-button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, orangered, orange);
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.about-me-img img {
+  width: 80%;
+}
+.about-me {
+  background-image: url(images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
